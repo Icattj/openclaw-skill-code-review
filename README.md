@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: code-review
 description: Structured code review with security and quality focus. Use when reviewing code changes, PRs, diffs, or when asked to review someone's code. Covers logic correctness, error handling, security vulnerabilities, performance, and readability. Enforces a systematic checklist approach instead of surface-level "looks good."
@@ -76,3 +80,13 @@ Never say "looks good" without checking every item below. A proper review catche
 - **Critical:** Security vulnerability, data loss, crash in production → must fix
 - **Major:** Logic bug, missing error handling, performance issue → should fix
 - **Minor:** Style, naming, minor optimization → nice to fix
+
+## Installation
+
+```bash
+cp -r code-review/ ~/.openclaw/workspace/skills/code-review/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
